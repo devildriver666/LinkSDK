@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LinkSDK/Classes/**/*'
+  #s.source_files = 'LinkSDK/Classes/**/*'
   s.vendored_frameworks = "Frameworks/LeanSDK.framework"
   s.dependency 'lottie-ios'
   

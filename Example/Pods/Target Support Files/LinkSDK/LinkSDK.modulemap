@@ -1,0 +1,6 @@
+framework module LinkSDK {
+  umbrella header "LinkSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

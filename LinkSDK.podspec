@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "This is pod spec Link SDK Testing and we are going to test it"
 
   s.homepage         = 'https://github.com/devildriver666/LinkSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,9 +26,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/devildriver666/LinkSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LinkSDK/Classes/**/*'
+  s.vendored_frameworks = "Frameworks/LeanSDK.framework"
+  s.dependency 'lottie-ios'
   
   # s.resource_bundles = {
   #   'LinkSDK' => ['LinkSDK/Assets/*.png']

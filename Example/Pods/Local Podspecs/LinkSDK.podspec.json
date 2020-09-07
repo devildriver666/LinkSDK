@@ -1,0 +1,22 @@
+{
+  "name": "LinkSDK",
+  "version": "0.1.0",
+  "summary": "A short description of LinkSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/devildriver666/LinkSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "devildriver666": "abhijeet.upahyay@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/devildriver666/LinkSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LinkSDK/Classes/**/*"
+}

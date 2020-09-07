@@ -1,0 +1,16 @@
+PODS:
+  - LinkSDK (0.1.0)
+
+DEPENDENCIES:
+  - LinkSDK (from `../`)
+
+EXTERNAL SOURCES:
+  LinkSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LinkSDK: 3ab0a6c64b245d940b91f707658b4db1e2923fc0
+
+PODFILE CHECKSUM: cc6f878731efb8abd7ee08a1e120b633509eed2c
+
+COCOAPODS: 1.9.3
